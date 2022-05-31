@@ -148,6 +148,7 @@ if(datepickers.length) {
             const hiddenInput = datepicker.querySelector('input[type="text"]');
             console.log(format);
             hiddenInput.value = format;
+            datepicker.classList.toggle('open');
         }
         
         updateDaysTable();
